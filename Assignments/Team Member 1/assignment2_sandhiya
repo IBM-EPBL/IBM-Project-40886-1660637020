@@ -1,0 +1,10 @@
+import random
+temp= random.randint(18,28)
+print("The Temperature is: ",temp)
+humid = random.randint(30,60)
+print("The Humidity is: ",humid,"%")
+
+if temp>15:
+    print("High Temperature")
+if humid >25:
+    print("HIgh Humidity")
